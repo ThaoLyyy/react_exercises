@@ -1,0 +1,30 @@
+.head {
+    background-color: #ff8b13;
+    padding: 10px 0;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+.container{
+    list-style: none;
+    font-size: 27px;
+    list-style-type: none;
+    overflow: hidden;
+    /* text-align-last: right; */
+    width: 80%;
+}
+.navbar-nav{
+    display: flex;
+}
+.nav-item{
+    float: left;
+}
+.nav-link{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    margin: 10px;
+    text-decoration: none;
+}

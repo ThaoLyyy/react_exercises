@@ -1,0 +1,125 @@
+section {
+  width: 100%;
+  padding: 10px;
+  margin: 80px;
+}
+
+.form_data {
+  max-width: 550px;
+  margin: 25px auto;
+  padding: 35px 20px;
+  /* box-shadow: 0 0 15px -10px #306db3; */
+  box-shadow: 0 0 15px -3px #cf5813;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_data h1 {
+  font-size: 46px;
+  color: #2a4365;
+}
+
+.form_data p {
+  color: #718096;
+  font-size: 18px;
+  margin-top: 9px;
+}
+
+.form_data form {
+  /* margin-top: 45px; */
+  width: 90%;
+  padding: 10px 30px;
+}
+
+.form_data form .form_input input {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #d9e2e4b2;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 14px;
+  margin-top: 9px;
+  font-size: 14px;
+}
+
+.form_data form .form_input label {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.form_input-is-text {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.form_data form .form_input input:focus {
+  border: 2px solid rgba(46, 81, 219, 0.6);
+}
+
+.form_data form .form_input input::placeholder {
+  color: #8694a8;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+form .title_msg{
+  font-size: 20px;
+  color: #e82f0f;
+}
+.label_wrap {
+  cursor: pointer;
+  display: block;
+  line-height: 22px;
+  padding: 0 0 0 25px;
+  position: relative;
+  outline: none !important;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #455065;
+  font-size: 16px;
+}
+.errors{
+  font-size: 18px;
+  color: #e82f0f;
+}
+
+.btn_login {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #e89221;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn_login:hover {
+  background-color: #3c70d8e3;
+}
+
+.form_data form p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form_data form a {
+  text-decoration: none;
+  color: #718096;
+  border-bottom: 2px solid #8694a8;
+}
